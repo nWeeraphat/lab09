@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-item a {
+    display: block;
+    padding: 10px;
+    background: #f4f4f4;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+}
+
+.user-item a:hover {
+    background: #ddd;
+}
